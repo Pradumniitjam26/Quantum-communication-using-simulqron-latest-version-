@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*.log
+*.pyc
+
+.env
+.env.*
+!.env.example
+
+venv/
+.venv/
+simulaqron-venv/
+
+database/key_database.txt
+database/*.backup
+
+*.pem
+*.key
+*.secret
+
+secure_message.json
+
+# Backup files
+*.backup
+*.bak
+backups/
+
+# Runtime data and logs
+logs/
+database/key_database.txt
+
+# Sensitive output
+secure_message.json
